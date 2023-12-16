@@ -16,7 +16,7 @@ const JoinNow = () => {
         />
       )}
 
-      <div className="min-h-[100vh] flex justify-center items-center bg-[#000]">
+      <div className=" flex justify-center items-center">
         <div className="w-[90%] min-h-[224px] lg:w-[30%] mx-auto   justify-center items-center flex  rounded-[32px] relative">
           <img
             onClick={handleOpen}
