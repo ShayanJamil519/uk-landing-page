@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import JoinNow from "@/components/JoinNow";
 import JoinWorkshop from "@/components/JoinWorkshop";
+import Reserve from "@/components/Reserve";
 import SpotsLeft from "@/components/SpotsLeft";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <JoinNow />
       <JoinWorkshop />
       <SpotsLeft />
+      <Reserve />
     </div>
   );
 }
