@@ -2,7 +2,7 @@ import React from "react";
 
 const JoinWorkshop = () => {
   return (
-    <div className="w-full mt-7 font-helvetica text-center">
+    <div className="w-full mt-7 mb-5 font-helvetica text-center">
       {/* Top */}
       <div
         className="w-[90%] mx-auto rounded-[13px] text-[11px] text-[#fff] font-bold py-2 px-1"

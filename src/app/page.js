@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import JoinNow from "@/components/JoinNow";
 import JoinWorkshop from "@/components/JoinWorkshop";
+import SpotsLeft from "@/components/SpotsLeft";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Hero />
       <JoinNow />
       <JoinWorkshop />
+      <SpotsLeft />
     </div>
   );
 }
