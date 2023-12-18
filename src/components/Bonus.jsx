@@ -58,22 +58,23 @@ function Bonus() {
           >
             <Image src={i.icon} width={100} height={100} alt="logo" />
             <p
-              // className="text-[48px] font-hanson font-[700] text-[#f90] leading-none"
+              className="font-hanson"
               style={{
                 background:
                   "linear-gradient(270deg, #F90 -44.3%, #F90 10.82%, #F00 141.75%)",
                 backgroundClip: "text",
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
-                // fontFamily: "Helvetica",
                 fontSize: "48px",
                 fontStyle: "normal",
                 fontWeight: "700",
               }}
             >
-              ₹{i.price}
+              <span style={{ fontSize: "24px" }}>₹</span>
+              {i.price}
             </p>
-            <h2 className="text-[20px] font-hanson font-[700] text-white uppercase leading-none">
+
+            <h2 className="text-[20px] font-hanson font-[700] text-white uppercase leading-none mt-[-10px]">
               {i.desc}
             </h2>
           </div>
