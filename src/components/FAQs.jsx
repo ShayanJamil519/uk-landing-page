@@ -1,7 +1,7 @@
 "use client";
 
-import React, { useState } from "react";
 import clsx from "clsx";
+import React, { useState } from "react";
 
 const FAQS = () => {
   const [Questions, setQuestions] = useState([
@@ -38,79 +38,96 @@ const FAQS = () => {
   ]);
 
   const handleClick = (index) => {
-    const newArr = [...Questions];
-    newArr[index].isOpen = !newArr[index].isOpen;
-    setQuestions(newArr);
+    setQuestions((prevQuestions) =>
+      prevQuestions.map((item, i) => {
+        if (i === index) {
+          return { ...item, isOpen: !item.isOpen };
+        }
+        return { ...item, isOpen: false };
+      })
+    );
   };
+
   return (
-    <div className=" relative w-full text-[#fff] bg-black pb-4 my-4">
-      <div className="flex flex-col space-y-2 lg:space-y-4 font-BalsamiqSans items-center w-[90%] sm:w-[80%] md:w-[70%] mx-auto h-auto">
-        <h3 className="text-center text-[20px] sm:text-4xl md:text-[45px] font-[900] uppercase font-helvetica">
-          Frequently Asked Questions
-        </h3>
-        <p className="uppercase text-[11px] text-center font-[400] font-helvetica mb-2">I have answered all common questions below that you might have about the workshop. </p>
+    <div className=" relative  rounded-[26px] font-helvetica pb-4 my-4 w-[93%] mx-auto">
+      <h3 className="text-center text-[19px] text-[#fff] font-bold uppercase font-helvetica">
+        Frequently Asked Questions
+      </h3>
+      <p className="uppercase text-[11px] text-[#fff] text-center font-[400] font-helvetica mt-3">
+        I have answered all common questions below that you might have about the{" "}
+        <span
+          className="italic font-bold"
+          style={{
+            background:
+              "linear-gradient(274deg, #F90 13.09%, #F90 27.49%, #F00 52.81%)",
+            backgroundClip: "text",
+            WebkitBackgroundClip: "text",
+            WebkitTextFillColor: "transparent",
+          }}
+        >
+          workshop
+        </span>
+        .
+      </p>
 
-        <div className="flex flex-col space-y-4 w-full items-center  ">
-          {Questions.map((item, index) => (
-            <div key={index} className="relative  w-full ">
+      <div className="flex flex-col space-y-4 mt-5 w-full items-center  ">
+        {Questions.map((item, index) => (
+          <div
+            key={index}
+            className="relative rounded-[26px]  w-full "
+            style={{
+              border: "1px solid #F14C4C",
+
+              background: "rgba(16, 16, 16, 0.64)",
+
+              backdropFilter: "blur(10px)",
+            }}
+          >
+            <div
+              className={`rounded-[26px] pt-16 sm:pt-7 md:pt-16 pb-5  ${
+                item.isOpen ? "block bg-[#FFF] " : "hidden"
+              }`}
+            >
+              <p className="text-[#171717] text-[10px] px-5">{item.answer}</p>
+            </div>
+            <div
+              onClick={() => handleClick(index)}
+              className={clsx(
+                "top-0 left-0  w-full  ",
+                `${item.isOpen ? "absolute" : "relative"}`
+              )}
+            >
               <div
                 className={clsx(
-                  "rounded-xl pt-2 sm:pt-7 md:pt-16  p-6",
-                  `${item.isOpen ? "block bg-[#FFF] " : "hidden"}`
+                  "px-4 md:px-6  min-h-[50px] py-2 flex   w-full rounded-[26px]  items-center justify-between ",
+                  `${
+                    item.isOpen
+                      ? "bg-[#000] text-black"
+                      : "bg-black text-[#ffff]"
+                  }`
                 )}
               >
-                <p className="text-[#171717] text-[10px] md:text-base pl-2 sm:pl-5 md:pl-7 lg:pl-10">
-                  {item.answer}
-                </p>
-              </div>
-              <div
-                className={clsx(
-                  "top-0 left-0  w-full ",
-                  `${item.isOpen ? "absolute" : "relative"}`
-                )}
-              >
-                <div
-                  className={clsx(
-                    "px-2 md:px-6 py-2.5 flex   w-full rounded-xl  items-center justify-between border-[1px] border-[#fff]",
-                    `${
-                      item.isOpen
-                        ? "bg-[#fff] text-black"
-                        : "bg-black text-[#ffff]"
-                    }`
-                  )}
-                >
-                  <div className="flex justify-center items-start gap-2 sm:gap-5">
-                    <p className="font-semibold text-[11px] font-montserrat text-[#ACACAC] md:text-[20px] uppercase">
-                      {item.question}
-                    </p>
-                  </div>
-
-                  <button
-                    onClick={() => handleClick(index)}
-                    // className={clsx(
-                    //   " py-3 px-2 rounded-full ",
-                    //   `${item.isOpen ? "bg-[#F1F6FF]" : "bg-black "}`
-                    // )}
-                  >
-                    {item.isOpen ? (
-                      <img
-                        src="/faqs_uparrow.png"
-                        className="sm:w-fit sm:h-fit  w-[10px] h-[10px]"
-                        alt="logo"
-                      />
-                    ) : (
-                      <img
-                        src="/faqs_downarrow.png"
-                        className="sm:w-fit sm:h-fit  w-[10px] h-[10px] "
-                        alt="logo"
-                      />
-                    )}
-                  </button>
+                <div className="flex justify-start items-start pl-5 pr-3 w-[95%] ml-0 mr-auto">
+                  <p className="font-normal text-[13px] font-montserrat text-[#EFEFEF] md:text-[20px] uppercase">
+                    {item.question}
+                  </p>
                 </div>
+
+                <button>
+                  {item.isOpen ? (
+                    <img
+                      src="/down__arrow__faq.svg"
+                      style={{ transform: "rotate(180deg)" }}
+                      alt="logo"
+                    />
+                  ) : (
+                    <img src="/down__arrow__faq.svg" alt="logo" />
+                  )}
+                </button>
               </div>
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
       </div>
     </div>
   );
