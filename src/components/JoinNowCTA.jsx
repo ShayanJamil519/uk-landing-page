@@ -4,8 +4,7 @@ function JoinNowCTA() {
   return (
     <div>
       <div
-        className="mt-5 pt-3 pb-2 mx-4 rounded-[13px]  text-white text-center font-helvetica
-"
+        className="mt-5 pt-3 pb-2 mx-10 rounded-[13px]  text-white text-center font-helvetica"
         style={{
           background:
             "linear-gradient(247deg, #F77 1.21%, #D62323 1.22%, #D75931 102%)",
@@ -16,7 +15,7 @@ function JoinNowCTA() {
         </p>
         <p className="text-[12px]  font-bold text-center ">(ONLY ₹299)</p>
       </div>
-      <p className="text-[11px]  text-white mx-4 my-3 text-center">
+      <p className="text-[13px]  text-white mx-2 my-3 text-center font-normal">
         Register before 28th December to unlock bonus worth{" "}
         <span
           className="text-[#f90] italic font-bold"
@@ -26,6 +25,7 @@ function JoinNowCTA() {
             backgroundClip: "text",
             WebkitBackgroundClip: "text",
             WebkitTextFillColor: "transparent",
+            fontSize: 13,
           }}
         >
           ₹17,000

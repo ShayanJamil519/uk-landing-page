@@ -49,13 +49,28 @@ function Bonus() {
           <div
             className="flex items-center justify-center flex-col mx-12 my-6 py-3 rounded-xl border-2 border-[#f90]"
             style={{
-              background:
-                "url(/background.png), lightgray 50% / cover no-repeat",
+              background: "url(/noisy-gradients.png) lightgray",
+              backgroundPosition: "50%",
+              backgroundSize: "cover",
+              backgroundRepeat: "no-repeat",
             }}
             key={i}
           >
             <Image src={i.icon} width={100} height={100} alt="logo" />
-            <p className="text-[48px] font-hanson font-[700] text-[#f90] leading-none">
+            <p
+              // className="text-[48px] font-hanson font-[700] text-[#f90] leading-none"
+              style={{
+                background:
+                  "linear-gradient(270deg, #F90 -44.3%, #F90 10.82%, #F00 141.75%)",
+                backgroundClip: "text",
+                WebkitBackgroundClip: "text",
+                WebkitTextFillColor: "transparent",
+                // fontFamily: "Helvetica",
+                fontSize: "48px",
+                fontStyle: "normal",
+                fontWeight: "700",
+              }}
+            >
               ₹{i.price}
             </p>
             <h2 className="text-[20px] font-hanson font-[700] text-white uppercase leading-none">

@@ -28,26 +28,87 @@ const Results = () => {
       </div>
 
       <TimeRunning />
-      
+
       <JoinNowCTA />
-      
-      <div className="mx-4">
-        <h2 className="text-white font-[700] font-[18px]">KNOW THE MAN BEHIND THE <span className="text-[#f90]">MAGIC</span></h2>
+
+      <div className="mx-4 mt-8">
+        <h2 className="text-white font-bold text-[18px]">
+          KNOW THE MAN BEHIND THE <span className="text-[#f90]">MAGIC</span>
+        </h2>
         <div
           className="rounded-2xl my-3 p-2"
-          style={{background: "linear-gradient(132deg, #FFF 1.42%, #CDCDCD 1.43%, #515151 49.94%, #000 101.59%)"}}
+          style={{
+            // background:
+            //   "linear-gradient(132deg, #FFF 1.42%, #CDCDCD 1.43%, #515151 49.94%, #000 101.59%)",
+            borderRadius: "19px",
+            // opacity: "0.2",
+            background:
+              "linear-gradient(132deg, #FFF 1.42%, #CDCDCD 1.43%, #515151 49.94%, #000 101.59%)",
+          }}
         >
           <div className="flex items-center">
             <div className="w-1/2">
               <Image src="/men.png" alt="" width={150} height={150} />
             </div>
-            <div className="flex w-1/2 flex-col"> 
-              <h2 className="text-left text-[26px] text-[#acacac] font-helvetica font-[400]">Sahil Kasana</h2>
-              <h4 className="text-left text-[14px] text-white">The <span style={{background: "linear-gradient(269deg, #F90 39.23%, #F90 39.23%, #F00 64.28%)", backgroundClip: "text", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent"}}>Cold Outreach</span> King</h4>
+            <div className="flex w-1/2 flex-col">
+              <h2
+                style={{
+                  background:
+                    "linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%)",
+                  WebkitBackgroundClip: "text",
+                  WebkitTextFillColor: "transparent",
+                  // fontFamily: "Test Epicene Text",
+                  fontSize: "26px",
+                  fontWeight: "400",
+                  // lineHeight: "normal",
+                  textAlign: "justify",
+                }}
+              >
+                Sahil Kasana
+              </h2>
+              <h4 className="text-left text-[14px] text-white">
+                The{" "}
+                <span
+                  className=" font-epicene"
+                  style={{
+                    background:
+                      "linear-gradient(278deg, #F90 13.27%, #F90 13.27%, #F00 64.94%)",
+                    backgroundClip: "text",
+                    WebkitBackgroundClip: "text",
+                    WebkitTextFillColor: "transparent",
+                    fontFamily: "Test Epicene Text",
+                    fontSize: "14px",
+                    fontStyle: "italic",
+                    fontWeight: "500",
+                    lineHeight: "normal",
+                  }}
+                >
+                  Cold Outreach
+                </span>{" "}
+                King
+              </h4>
             </div>
           </div>
-          <h2 className="mt-3 mx-1 text-center text-white font-helvetica">
-            Worked with over 300 clients and generated <span style={{background: "linear-gradient(272deg, #F90 37.08%, #F90 37.09%, #F00 94.15%)", backgroundClip: "text", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent"}}>5 crore + revenue</span> just with cold outreach.
+          <h2 className="mt-7 mb-3 mx-7 text-center text-white font-helvetica">
+            Worked with over 300 clients and generated{" "}
+            <span
+              style={{
+                background:
+                  "linear-gradient(272deg, #F90 37.08%, #F90 37.09%, #F00 94.15%)",
+                backgroundClip: "text",
+                WebkitBackgroundClip: "text",
+                WebkitTextFillColor: "transparent",
+                fontFamily: "Helvetica",
+                fontSize: "15px",
+                fontStyle: "italic",
+                fontWeight: "700",
+                lineHeight: "normal",
+                marginTop: "-1px",
+              }}
+            >
+              5 crore + revenue
+            </span>{" "}
+            just with cold outreach.
           </h2>
         </div>
       </div>
