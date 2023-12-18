@@ -60,6 +60,7 @@ function Bonus() {
             <Image src={i.icon} width={100} height={100} alt="logo" />
             <p
               className="font-hanson"
+              // className="text-[48px] font-hanson font-[700] text-[#f90] leading-none"
               style={{
                 background:
                   "linear-gradient(270deg, #F90 -44.3%, #F90 10.82%, #F00 141.75%)",
@@ -71,11 +72,9 @@ function Bonus() {
                 fontWeight: "700",
               }}
             >
-              <span style={{ fontSize: "24px" }}>₹</span>
-              {i.price}
+              ₹{i.price}
             </p>
-
-            <h2 className="text-[20px] font-hanson font-[700] text-white uppercase leading-none mt-[-10px]">
+            <h2 className="text-[20px] font-hanson font-[700] text-white uppercase leading-none mt-[-px]">
               {i.desc}
             </h2>
           </div>
@@ -118,10 +117,12 @@ function Bonus() {
       </div>
 
       <div className="text-white mt-3 text-center">
-        <p className="text-[14px] font-[400] font-helvetica ">
+        <p className="text-[14px] font-[400] font-helvetica">
           Normal Workshop Ticket Price:{" "}
-          <s
+          <span
             style={{
+              textDecorationLine: " strikethrough",
+
               background:
                 "linear-gradient(274deg, #F90 -8.38%, #F90 -8.38%, #F00 39.33%)",
               backgroundClip: "text",
@@ -131,10 +132,10 @@ function Bonus() {
           >
             {" "}
             ₹2999
-          </s>
+          </span>
         </p>
         <p
-          className="text-[16px] font-bold font-helvetica -mb-5"
+          className="text-[16px] font-bold font-helvetica"
           style={{
             background:
               "linear-gradient(276deg, #F90 16.68%, #F90 55.97%, #F00 149.3%)",
@@ -146,8 +147,9 @@ function Bonus() {
           Join Today At Just
         </p>
         <h1
-          className="text-[96px] font-hanson font-bold]"
+          className="font-hanson font-bold"
           style={{
+            fontSize: "96px",
             background:
               "linear-gradient(291deg, #F90 6.63%, #F90 6.63%, #F00 111.45%)",
             backgroundClip: "text",
@@ -155,7 +157,7 @@ function Bonus() {
             WebkitTextFillColor: "transparent",
           }}
         >
-          ₹299
+          <span style={{ fontSize: "48px" }}>₹</span>299
         </h1>
       </div>
 
