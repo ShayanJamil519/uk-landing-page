@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         helvetica: "var(--font-helvetica)",
+        epicene: "var(--font-epicene)",
       },
       backgroundImage: {},
     },
