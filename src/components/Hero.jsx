@@ -32,7 +32,10 @@ const Hero = () => {
           LEARN HOW TO START ONE PERSON
         </h1>
         <h1 className="text-[#fff] text-[17px] font-bold ">
-          AGENCY <span className="text-[#E64B06] ml-1">WITH ₹0</span>
+          AGENCY{" "}
+          <span className="text-[#E64B06] ml-1 font-epicene italic">
+            WITH ₹0
+          </span>
         </h1>
 
         <img src="/Line 1.svg" alt="logo" className="mx-auto mt-2" />
@@ -49,7 +52,9 @@ const Hero = () => {
         </p>
         <h1 className="text-[#fff] text-[20px]  mt-1 font-bold">
           6-10 clients in the next{" "}
-          <span className="text-[#E64B06] ml-1">30 days</span>
+          <span className="text-[#E64B06] ml-1 font-epicene italic">
+            30 days
+          </span>
         </h1>
 
         <p className="text-[#D4D4D4] text-[13px] mt-1 w-[90%] mx-auto ">
