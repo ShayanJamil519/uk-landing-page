@@ -15,13 +15,18 @@ const JoinWorkshop = () => {
         <p className="m-0">(ONLY ₹299)</p>
       </div>
       {/* Bottom */}
-      <div className="mt-10 relative px-4 grid grid-cols-2 gap-5">
+      <div className="mt-10 relative px-4 grid grid-cols-2 gap-5 ">
+        <img
+          src="/worksop__layer.svg"
+          alt="logo"
+          className="absolute right-0 -top-5"
+        />
+
         <div
           className="py-4 px-3 relative text-[#D9D6D6] text-[11px] font-helvetica col-span-1"
           style={{
             borderRadius: "19px",
             boxShadow: "-2px -2px 3px 0px #FF7A00",
-            // border: "3px solid #FF7A00",
             background:
               "linear-gradient(139deg, rgba(6, 6, 6, 0.30) 5.43%, rgba(177, 174, 174, 0.15) 48.89%, rgba(217, 217, 217, 0.00) 94.14%)",
             backdropFilter: "blur(2.7000px)",
