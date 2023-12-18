@@ -115,12 +115,10 @@ function Bonus() {
       </div>
 
       <div className="text-white mt-3 text-center">
-        <p className="text-[14px] font-[400] font-helvetica">
+        <p className="text-[14px] font-[400] font-helvetica ">
           Normal Workshop Ticket Price:{" "}
-          <span
+          <s
             style={{
-              textDecorationLine: " strikethrough",
-
               background:
                 "linear-gradient(274deg, #F90 -8.38%, #F90 -8.38%, #F00 39.33%)",
               backgroundClip: "text",
@@ -130,10 +128,10 @@ function Bonus() {
           >
             {" "}
             ₹2999
-          </span>
+          </s>
         </p>
         <p
-          className="text-[16px] font-bold font-helvetica"
+          className="text-[16px] font-bold font-helvetica -mb-5"
           style={{
             background:
               "linear-gradient(276deg, #F90 16.68%, #F90 55.97%, #F00 149.3%)",

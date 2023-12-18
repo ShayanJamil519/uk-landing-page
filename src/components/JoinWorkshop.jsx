@@ -30,7 +30,7 @@ const JoinWorkshop = () => {
           <span className="w-[8px] h-[8px] rounded-md bg-[#fff] absolute top-4 left-4"></span>
 
           <img
-            src="/workshop__icon__1.png"
+            src="/workshop__icon__1.svg"
             alt="logo"
             className="mx-auto mb-1"
           />
@@ -54,7 +54,7 @@ const JoinWorkshop = () => {
           <span className="w-[8px] h-[8px] rounded-md bg-[#fff] absolute top-4 left-4"></span>
 
           <img
-            src="/workshop__icon__2.png"
+            src="/workshop__icon__2.svg"
             alt="logo"
             className="mx-auto mb-1"
           />
@@ -79,7 +79,7 @@ const JoinWorkshop = () => {
           <span className="w-[8px] h-[8px] rounded-md bg-[#fff] absolute top-4 left-4"></span>
 
           <img
-            src="/workshop__icon__3.png"
+            src="/workshop__icon__3.svg"
             alt="logo"
             className="mx-auto mb-1"
           />
@@ -104,7 +104,7 @@ const JoinWorkshop = () => {
           <span className="w-[8px] h-[8px] rounded-md bg-[#fff] absolute top-4 left-4"></span>
 
           <img
-            src="/workshop__icon__4.png"
+            src="/workshop__icon__4.svg"
             alt="logo"
             className="mx-auto mb-1"
           />
