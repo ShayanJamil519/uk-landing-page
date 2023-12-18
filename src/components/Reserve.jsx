@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Reserve1 = () => {
@@ -51,7 +52,7 @@ const Reserve1 = () => {
         </div>
         {/* Right */}
         <div>
-          <img src="./Reserve/reserve1.png" alt="logo" />
+          <Image src="/Reserve/reserve1.png" alt="logo" width={40} height={40} />
         </div>
       </div>
     </div>
@@ -75,7 +76,6 @@ const Reserve2 = () => {
         {/* Left */}
         <div className="flex flex-row gap-4 py-4 ml-[-5px] w-[85%]">
           <div className="flex justify-center items-center relative ">
-            {" "}
             <div
               className="w-[45px] h-[22px]"
               style={{
@@ -110,7 +110,355 @@ const Reserve2 = () => {
         </div>
         {/* Right */}
         <div className="">
-          <img src="./Reserve/reserve1.png" />
+          <Image src="/Reserve/reserve2.png" alt="logo" width={40} height={40} />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const Reserve3 = () => {
+  return (
+    <div className="mt-5 px-6">
+      <div
+        style={{
+          borderRadius: "3px",
+          background:
+            "linear-gradient(90deg, #151515 -2.24%, #2B2A2A 48.81%, #000 99.86%)",
+          // background: "yellow",
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+        }}
+      >
+        {/* Left */}
+        <div className="flex flex-row gap-4 py-4 ml-[-5px] w-[85%]">
+          <div className="flex justify-center items-center relative ">
+            <div
+              className="w-[45px] h-[22px]"
+              style={{
+                background: "linear-gradient(247deg, #FF5C00 1.21%, #F00 102%)",
+              }}
+            ></div>
+            <p className="text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-sm font-normal font-helvetica">
+              03
+            </p>
+          </div>
+
+          {/* Middle */}
+          <p className="text-[#FFF] text-[13px] font-normal  font-helvetica">
+            Steps to build an {" "}
+            <span
+              style={{
+                background:
+                "linear-gradient(276deg, #F90 9.2%, #F90 9.21%, #F00 119.3%)",
+                backgroundClip: "text",
+                WebkitBackgroundClip: "text",
+                WebkitTextFillColor: "transparent",
+                fontFamily: "Helvetica",
+                fontSize: "13px",
+                fontStyle: "normal",
+                fontWeight: 700,
+                lineHeight: "normal",
+              }}
+            >
+              undeniable offer
+            </span>
+          </p>
+        </div>
+        {/* Right */}
+        <div className="">
+          <Image src="/Reserve/reserve3.png" alt="logo" width={50} height={50} />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const Reserve4 = () => {
+  return (
+    <div className="mt-5 px-6">
+      <div
+        style={{
+          borderRadius: "3px",
+          background:
+            "linear-gradient(90deg, #151515 -2.24%, #2B2A2A 48.81%, #000 99.86%)",
+          // background: "yellow",
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+        }}
+      >
+        {/* Left */}
+        <div className="flex flex-row gap-4 py-4 ml-[-5px] w-[85%]">
+          <div className="flex justify-center items-center relative ">
+            <div
+              className="w-[45px] h-[22px]"
+              style={{
+                background: "linear-gradient(247deg, #FF5C00 1.21%, #F00 102%)",
+              }}
+            ></div>
+            <p className="text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-sm font-normal font-helvetica">
+              04
+            </p>
+          </div>
+
+          {/* Middle */}
+          <p className="text-[#FFF] text-[13px] font-normal  font-helvetica">
+            Perfect {" "}
+            <span
+              style={{
+                background:
+                  "linear-gradient(276deg, #F90 9.2%, #F90 9.21%, #F00 119.3%)",
+                backgroundClip: "text",
+                WebkitBackgroundClip: "text",
+                WebkitTextFillColor: "transparent",
+                fontFamily: "Helvetica",
+                fontSize: "13px",
+                fontStyle: "normal",
+                fontWeight: 700,
+                lineHeight: "normal",
+              }}
+            >
+              steps {" "}
+            </span>
+            to book calls with prospects
+          </p>
+        </div>
+        {/* Right */}
+        <div className="">
+          <Image src="/Reserve/reserve4.png" alt="logo" width={50} height={50} />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const Reserve5 = () => {
+  return (
+    <div className="mt-5 px-6">
+      <div
+        style={{
+          borderRadius: "3px",
+          background:
+            "linear-gradient(90deg, #151515 -2.24%, #2B2A2A 48.81%, #000 99.86%)",
+          // background: "yellow",
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+        }}
+      >
+        {/* Left */}
+        <div className="flex flex-row gap-4 py-4 ml-[-5px] w-[85%]">
+          <div className="flex justify-center items-center relative ">
+            <div
+              className="w-[45px] h-[22px]"
+              style={{
+                background: "linear-gradient(247deg, #FF5C00 1.21%, #F00 102%)",
+              }}
+            ></div>
+            <p className="text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-sm font-normal font-helvetica">
+              05
+            </p>
+          </div>
+
+          {/* Middle */}
+          <p className="text-[#FFF] text-[13px] font-normal font-helvetica">
+            <span
+              style={{
+                background:
+                  "linear-gradient(271deg, #F90 50.75%, #F90 50.76%, #F00 103.35%)",
+                backgroundClip: "text",
+                WebkitBackgroundClip: "text",
+                WebkitTextFillColor: "transparent",
+                fontFamily: "Helvetica",
+                fontSize: "13px",
+                fontStyle: "normal",
+                fontWeight: 700,
+                lineHeight: "normal",
+              }}
+            >
+              Unrevealed outreach {" "}
+            </span>
+            that big agencies don’t want you to know
+          </p>
+        </div>
+        {/* Right */}
+        <div className="">
+          <Image src="/Reserve/reserve5.png" alt="logo" width={50} height={50} />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const Reserve6 = () => {
+  return (
+    <div className="mt-5 px-6">
+      <div
+        style={{
+          borderRadius: "3px",
+          background:
+            "linear-gradient(90deg, #151515 -2.24%, #2B2A2A 48.81%, #000 99.86%)",
+          // background: "yellow",
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+        }}
+      >
+        {/* Left */}
+        <div className="flex flex-row gap-4 py-4 ml-[-5px] w-[85%]">
+          <div className="flex justify-center items-center relative ">
+            <div
+              className="w-[45px] h-[22px]"
+              style={{
+                background: "linear-gradient(247deg, #FF5C00 1.21%, #F00 102%)",
+              }}
+            ></div>
+            <p className="text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-sm font-normal font-helvetica">
+              06
+            </p>
+          </div>
+
+          {/* Middle */}
+          <p className="text-[#FFF] text-[13px] font-normal  font-helvetica">
+            Secret payment processor that almost takes {" "}
+            <span
+              style={{
+                background:
+                "linear-gradient(271deg, #F90 58.54%, #F90 74.58%, #F00 109.34%)",
+                backgroundClip: "text",
+                WebkitBackgroundClip: "text",
+                WebkitTextFillColor: "transparent",
+                fontFamily: "Helvetica",
+                fontSize: "13px",
+                fontStyle: "normal",
+                fontWeight: 700,
+                lineHeight: "normal",
+              }}
+            >
+              0 fees
+            </span>
+          </p>
+        </div>
+        {/* Right */}
+        <div className="">
+          <Image src="/Reserve/reserve6.png" alt="logo" width={50} height={50} />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const Reserve7 = () => {
+  return (
+    <div className="mt-5 px-6">
+      <div
+        style={{
+          borderRadius: "3px",
+          background:
+            "linear-gradient(90deg, #151515 -2.24%, #2B2A2A 48.81%, #000 99.86%)",
+          // background: "yellow",
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+        }}
+      >
+        {/* Left */}
+        <div className="flex flex-row gap-4 py-4 ml-[-5px] w-[85%]">
+          <div className="flex justify-center items-center relative ">
+            <div
+              className="w-[45px] h-[22px]"
+              style={{
+                background: "linear-gradient(247deg, #FF5C00 1.21%, #F00 102%)",
+              }}
+            ></div>
+            <p className="text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-sm font-normal font-helvetica">
+              07
+            </p>
+          </div>
+
+          {/* Middle */}
+          <p className="text-[#FFF] text-[13px] font-normal  font-helvetica">
+            Simplest way to send {" "}
+            <span
+              style={{
+                background:
+                  "linear-gradient(269deg, #F90 9.2%, #F90 9.21%, #F00 119.3%)",
+                backgroundClip: "text",
+                WebkitBackgroundClip: "text",
+                WebkitTextFillColor: "transparent",
+                fontFamily: "Helvetica",
+                fontSize: "13px",
+                fontStyle: "normal",
+                fontWeight: 700,
+                lineHeight: "normal",
+              }}
+            >
+              proposals & contracts
+            </span>
+          </p>
+        </div>
+        {/* Right */}
+        <div className="">
+          <Image src="/Reserve/reserve7.png" alt="logo" width={50} height={50} />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const Reserve8 = () => {
+  return (
+    <div className="mt-5 px-6">
+      <div
+        style={{
+          borderRadius: "3px",
+          background:
+            "linear-gradient(90deg, #151515 -2.24%, #2B2A2A 48.81%, #000 99.86%)",
+          // background: "yellow",
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+        }}
+      >
+        {/* Left */}
+        <div className="flex flex-row gap-4 py-4 ml-[-5px] w-[85%]">
+          <div className="flex justify-center items-center relative ">
+            <div
+              className="w-[45px] h-[22px]"
+              style={{
+                background: "linear-gradient(247deg, #FF5C00 1.21%, #F00 102%)",
+              }}
+            ></div>
+            <p className="text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-sm font-normal font-helvetica">
+              08
+            </p>
+          </div>
+
+          {/* Middle */}
+          <p className="text-[#FFF] text-[13px] font-normal font-helvetica w-full items-center justify-center flex">
+            <span
+              style={{
+                background:
+                  "linear-gradient(276deg, #F90 9.2%, #F90 9.21%, #F00 119.3%)",
+                backgroundClip: "text",
+                WebkitBackgroundClip: "text",
+                WebkitTextFillColor: "transparent",
+                fontFamily: "Helvetica",
+                fontSize: "13px",
+                fontStyle: "normal",
+                fontWeight: 700,
+                lineHeight: "normal",
+              }}
+            >
+              Live Q&A
+            </span>
+          </p>
+        </div>
+        {/* Right */}
+        <div className="">
+          <Image src="/Reserve/reserve8.png" alt="logo" width={50} height={50} />
         </div>
       </div>
     </div>
@@ -134,10 +482,13 @@ const Reserve = () => {
       {/* Single Card */}
 
       <Reserve1 />
-
-      {/* Second */}
-
       <Reserve2 />
+      <Reserve3 />
+      <Reserve4 />
+      <Reserve5 />
+      <Reserve6 />
+      <Reserve7 />
+      <Reserve8 />
     </div>
   );
 };
