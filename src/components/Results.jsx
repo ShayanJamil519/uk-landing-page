@@ -6,9 +6,20 @@ import TimeRunning from "./TimeRunning";
 const Results = () => {
   return (
     <div className="mt-10 text-center font-helvetica pb-16">
-      <h1 className="text-[20px] font-bold text-[#fff] ">
+      <h1 className="text-[20px] font-bold text-[#fff] font-epicene ">
         {`Don't Just Sleep On It! You Can Expect These Type Of`}{" "}
-        <span className="italic text-[#ff9900]">RESULTS</span>
+        <span
+          className="ml-1 text-[#ff9900]"
+          style={{
+            background:
+              "linear-gradient(274deg, #F90 -6.13%, #F90 8.8%, #F00 44.25%)",
+            backgroundClip: "text",
+            WebkitBackgroundClip: "text",
+            WebkitTextFillColor: "transparent",
+          }}
+        >
+          RESULTS
+        </span>
       </h1>
       <div
         style={{
@@ -36,7 +47,7 @@ const Results = () => {
           KNOW THE MAN BEHIND THE <span className="text-[#f90]">MAGIC</span>
         </h2>
         <div
-          className="rounded-2xl my-3 p-2"
+          className="rounded-2xl my-3 px-2 py-4"
           style={{
             // background:
             //   "linear-gradient(132deg, #FFF 1.42%, #CDCDCD 1.43%, #515151 49.94%, #000 101.59%)",
@@ -53,9 +64,9 @@ const Results = () => {
           }}
         >
           {/* c:\Users\RB Tech\Downloads\Rectangle 11.png */}
-          <div className="flex items-center">
-            <div className="w-1/2">
-              <Image src="/men.png" alt="" width={150} height={150} />
+          <div className="flex justify-between items-center">
+            <div className="w-[45%]">
+              <img src="/men.svg" alt="logo" />
             </div>
             <div className="flex w-1/2 flex-col">
               <h2
@@ -83,7 +94,7 @@ const Results = () => {
                     backgroundClip: "text",
                     WebkitBackgroundClip: "text",
                     WebkitTextFillColor: "transparent",
-                    fontFamily: "Test Epicene Text",
+
                     fontSize: "14px",
                     fontStyle: "italic",
                     fontWeight: "500",

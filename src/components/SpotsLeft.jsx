@@ -142,8 +142,8 @@ const SpotsLeft = () => {
             background:
               "linear-gradient(247deg, #FF5C00 1.21%, #FF1D0F 73.63%)",
             backgroundClip: "text",
-            webkitBackgroundClip: "text",
-            webkitTextFillColor: "transparent",
+            WebkitBackgroundClip: "text",
+            WebkitTextFillColor: "transparent",
           }}
           className="text-[16px] font-normal"
         >

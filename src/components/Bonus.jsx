@@ -49,7 +49,7 @@ function Bonus() {
       <div className="w-full">
         {bonuses.map((i, index) => (
           <div
-            className="flex items-center justify-center flex-col mx-12 my-6 py-3 rounded-xl border-2 border-[#f90]"
+            className="flex items-center justify-center flex-col mx-8  text-center my-6 py-3 rounded-xl border-2 border-[#f90]"
             style={{
               background: "url(/noisy-gradients.png) lightgray",
               backgroundPosition: "50%",
