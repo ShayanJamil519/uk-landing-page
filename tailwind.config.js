@@ -10,6 +10,7 @@ module.exports = {
       fontFamily: {
         helvetica: "var(--font-helvetica)",
         epicene: "var(--font-epicene)",
+        hanson: "var(--font-hanson)",
       },
       backgroundImage: {},
     },
