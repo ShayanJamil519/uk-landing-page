@@ -44,6 +44,7 @@ const Results = () => {
             // opacity: "0.2",
             background:
               "linear-gradient(132deg, #FFF 1.42%, #CDCDCD 1.43%, #515151 49.94%, #000 101.59%)",
+            boxShadow: "hsl(11deg 100% 44.08%) 2px 2px 11px 2px",
           }}
         >
           <div className="flex items-center">
