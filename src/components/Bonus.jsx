@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import TimeRunning from "./TimeRunning";
 import JoinNowCTA from "./JoinNowCTA";
+import "./Style.css";
 
 let bonuses = [
   {
@@ -118,22 +119,10 @@ function Bonus() {
 
       <div className="text-white mt-3 text-center">
         <p className="text-[14px] font-[400] font-helvetica">
-          Normal Workshop Ticket Price:{" "}
-          <span
-            style={{
-              textDecorationLine: " strikethrough",
-
-              background:
-                "linear-gradient(274deg, #F90 -8.38%, #F90 -8.38%, #F00 39.33%)",
-              backgroundClip: "text",
-              WebkitBackgroundClip: "text",
-              WebkitTextFillColor: "transparent",
-            }}
-          >
-            {" "}
-            ₹2999
-          </span>
+          Normal Workshop Ticket Price:
+          <span className="custom-strike">₹2999</span>
         </p>
+
         <p
           className="text-[16px] font-bold font-helvetica"
           style={{
