@@ -81,16 +81,20 @@ function Bonus() {
       </div>
 
       <div
-        className="text-white p-4 w-[90%]"
+        className="text-white text-center py-10 px-4 w-[85%] rounded-[19px] my-8"
         style={{
           background:
             "linear-gradient(139deg, rgba(6, 6, 6, 0.30) 5.43%, rgba(177, 174, 174, 0.15) 48.89%, rgba(217, 217, 217, 0.00) 94.14%)",
+          boxShadow: "-2px -2px 3px 0px #FF7A00",
+
+          backdropFilter: "blur(2.70px)",
         }}
       >
-        <div className="flex flex-col items-right justify-end">
+        <div className="flex flex-col items-center justify-center ">
           <p className="text-[13px] font-helvetica">
             Total Value of{" "}
             <span
+              className="bold italic"
               style={{
                 background:
                   "linear-gradient(272deg, #F90 37.08%, #F90 37.09%, #F00 94.15%)",
@@ -102,21 +106,37 @@ function Bonus() {
               Bonuses
             </span>
           </p>
-          <h1 className="text-[48px] font-[700] font-hanson leading-none">
+          <h1 className="text-[48px] font-[700] mt-2 font-hanson leading-none ">
             ₹17,000
           </h1>
+
+          <img src="/Line 1.svg" alt="logo" className="mx-auto mt-4" />
         </div>
       </div>
 
-      <div className="text-white mt-3">
-        <p className="text-[14px] font-[400] font-montserrat">
-          Normal Workshop Ticket Price: ₹2999
+      <div className="text-white mt-3 text-center">
+        <p className="text-[14px] font-[400] font-helvetica">
+          Normal Workshop Ticket Price:{" "}
+          <span
+            style={{
+              textDecorationLine: " strikethrough",
+
+              background:
+                "linear-gradient(274deg, #F90 -8.38%, #F90 -8.38%, #F00 39.33%)",
+              backgroundClip: "text",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+            }}
+          >
+            {" "}
+            ₹2999
+          </span>
         </p>
         <p
-          className="text-[16px] leading-none font-[700] font-montserrat"
+          className="text-[16px] font-bold font-helvetica"
           style={{
             background:
-              "linear-gradient(272deg, #F90 37.08%, #F90 37.09%, #F00 94.15%)",
+              "linear-gradient(276deg, #F90 16.68%, #F90 55.97%, #F00 149.3%)",
             backgroundClip: "text",
             WebkitBackgroundClip: "text",
             WebkitTextFillColor: "transparent",
@@ -124,7 +144,18 @@ function Bonus() {
         >
           Join Today At Just
         </p>
-        <h1 className="text-[120px] leading-none font-[900]">₹299</h1>
+        <h1
+          className="text-[96px] font-hanson font-bold]"
+          style={{
+            background:
+              "linear-gradient(291deg, #F90 6.63%, #F90 6.63%, #F00 111.45%)",
+            backgroundClip: "text",
+            WebkitBackgroundClip: "text",
+            WebkitTextFillColor: "transparent",
+          }}
+        >
+          ₹299
+        </h1>
       </div>
 
       <TimeRunning />
@@ -137,7 +168,7 @@ function Bonus() {
           A Complete Mentorship You Need To Understand
         </p>
         <p
-          className="text-center font-bold text-[16px] mt-1"
+          className="text-center font-bold text-[16px]"
           style={{
             background:
               "linear-gradient(272deg, #F90 37.08%, #F90 37.09%, #F00 94.15%)",
