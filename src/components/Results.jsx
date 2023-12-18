@@ -45,8 +45,14 @@ const Results = () => {
             background:
               "linear-gradient(132deg, #FFF 1.42%, #CDCDCD 1.43%, #515151 49.94%, #000 101.59%)",
             boxShadow: "hsl(11deg 100% 44.08%) 2px 2px 11px 2px",
+
+            background: "url(/behind-man.png)",
+            backgroundPosition: "50%",
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
           }}
         >
+          {/* c:\Users\RB Tech\Downloads\Rectangle 11.png */}
           <div className="flex items-center">
             <div className="w-1/2">
               <Image src="/men.png" alt="" width={150} height={150} />
