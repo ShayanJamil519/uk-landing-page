@@ -32,6 +32,7 @@ function Bonus() {
       <h2 className="text-white text-[24px] font-[700] font-helvetica">
         Unlock Bonuses Worth{" "}
         <span
+          className="font-epicene"
           style={{
             background:
               "linear-gradient(272deg, #F90 37.08%, #F90 37.09%, #F00 94.15%)",
@@ -82,7 +83,7 @@ function Bonus() {
       </div>
 
       <div
-        className="text-white text-center py-10 px-4 w-[85%] rounded-[19px] my-8"
+        className="text-white text-center py-10 px-4 w-[85%] rounded-[19px] my-8 relative"
         style={{
           background:
             "linear-gradient(139deg, rgba(6, 6, 6, 0.30) 5.43%, rgba(177, 174, 174, 0.15) 48.89%, rgba(217, 217, 217, 0.00) 94.14%)",
@@ -91,6 +92,7 @@ function Bonus() {
           backdropFilter: "blur(2.70px)",
         }}
       >
+        <span className="w-[10px] h-[10px] rounded-full bg-[#fff] left-5 top-5 absolute"></span>
         <div className="flex flex-col items-center justify-center ">
           <p className="text-[13px] font-helvetica">
             Total Value of{" "}
