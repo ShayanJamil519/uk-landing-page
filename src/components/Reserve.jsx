@@ -51,7 +51,7 @@ const Reserve1 = () => {
         </div>
         {/* Right */}
         <div>
-          <img src="./Reserve/reserve1.png" />
+          <img src="./Reserve/reserve1.png" alt="logo" />
         </div>
       </div>
     </div>
@@ -123,7 +123,7 @@ const Reserve = () => {
       {/* Heading */}
       <div className="mt-7 mb-2">
         <h2 className="text-[#EFEFEF] text-[20px] font-bold  px-10 text-center font-helvetica">
-          HERE'S WHAT YOU'RE GOING TO
+          {` HERE'S WHAT YOU'RE GOING TO`}
           <span className="text-[#FF4D00] italic font-helveticatext-[20px] font-bold mx-2">
             LEARN
           </span>
