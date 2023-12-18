@@ -1,5 +1,9 @@
+import Bonus from "@/components/Bonus";
+import FAQS from "@/components/FAQs";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import JoinNow from "@/components/JoinNow";
+import JoinNowCTA from "@/components/JoinNowCTA";
 import JoinWorkshop from "@/components/JoinWorkshop";
 import Reserve from "@/components/Reserve";
 import Results from "@/components/Results";
@@ -14,7 +18,12 @@ export default function Home() {
       <JoinWorkshop />
       <SpotsLeft />
       <Reserve />
+      <JoinNowCTA />
       <Results />
+      <Bonus />
+      <FAQS />
+      <JoinNowCTA />
+      <Footer />
     </div>
   );
 }
