@@ -14,6 +14,23 @@ const JoinWorkshop = () => {
         <p className="m-0">JOIN THE ONE PERSON AGENCY WORKSHOP NOW!</p>
         <p className="m-0 italic">(ONLY ₹299)</p>
       </div>
+      <div className="my-4">
+        <p className="text-[12px] md:text-[16px] lg:text-[20px]  text-white my-3 text-center">
+          Register before 28th December to unlock bonus worth{" "}
+          <span
+            className="text-[#f90] font-bold font-epicene text-[13px] md:text-[16px]"
+            style={{
+              background:
+                "linear-gradient(274deg, #F90 -5.59%, #F90 1.88%, #F00 19.64%)",
+              backgroundClip: "text",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+            }}
+          >
+            ₹17,000
+          </span>
+        </p>
+      </div>
       {/* Bottom */}
       <div className="mt-10 lg:mt-24 md:mt-16 sm:mt-12 relative px-4 md:px-20 sm:px-12 lg:px-28 grid grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-10 ">
         <img

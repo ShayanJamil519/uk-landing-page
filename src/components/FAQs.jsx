@@ -88,7 +88,7 @@ const FAQS = () => {
                 item.isOpen ? "block bg-[#FFF] " : "hidden"
               }`}
             >
-              <p className="text-[#171717] text-[10px] px-5">{item.answer}</p>
+              <p className="text-[#171717] text-[13px] md:text-[16px] px-5">{item.answer}</p>
             </div>
             <div
               onClick={() => handleClick(index)}
