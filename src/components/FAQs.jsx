@@ -50,13 +50,13 @@ const FAQS = () => {
 
   return (
     <div className=" relative  rounded-[26px] font-helvetica pb-4 my-4 w-[93%] mx-auto">
-      <h3 className="text-center text-[19px] text-[#fff] font-bold uppercase font-helvetica">
+      <h3 className="text-center text-[19px]  lg:text-[40px] md:text-[32px] sm:text-[24px]  text-[#fff] font-bold uppercase font-helvetica">
         Frequently Asked Questions
       </h3>
-      <p className="uppercase text-[11px] text-[#fff] text-center font-[400] font-helvetica mt-3">
+      <p className="uppercase text-[11px]  lg:text-[23px] md:text-[20px] sm:text-[16px] sm:w-[80%] md:w-[70%] lg:w-[60%] mx-auto text-[#fff] text-center font-[400] font-helvetica mt-3">
         I have answered all common questions below that you might have about the{" "}
         <span
-          className="italic font-bold"
+          className="italic md:not-italic font-bold"
           style={{
             background:
               "linear-gradient(274deg, #F90 13.09%, #F90 27.49%, #F00 52.81%)",
@@ -70,7 +70,7 @@ const FAQS = () => {
         .
       </p>
 
-      <div className="flex flex-col space-y-4 mt-5 w-full items-center  ">
+      <div className="flex flex-col space-y-4 mt-5 w-full sm:w-[90%] md:w-[80%] lg:w-[70%] mx-auto items-center  ">
         {Questions.map((item, index) => (
           <div
             key={index}

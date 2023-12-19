@@ -6,7 +6,7 @@ import TimeRunning from "./TimeRunning";
 const Results = () => {
   return (
     <div className="mt-10 text-center font-helvetica pb-16">
-      <h1 className="text-[20px] font-bold text-[#fff] font-epicene ">
+      <h1 className="text-[18px] lg:text-[32px] md:text-[24px] lg:w-[50%] md:w-[70%] sm:w-[85%] mx-auto font-bold text-[#fff] font-epicene ">
         {`Don't Just Sleep On It! You Can Expect These Type Of`}{" "}
         <span
           className="ml-1 text-[#ff9900]"
@@ -31,16 +31,23 @@ const Results = () => {
         <img
           src="/results__layer.svg"
           alt="logo"
-          className="absolute left-0 top-[30%] z-2"
+          className="absolute left-0 top-[30%] sm:top-[20%] lg:top-[10%] z-2 lg:w-[15%]"
         />
 
         <div className="mx-auto">
+
+        <img
+            src="/results__1__large.svg"
+            alt="logo"
+            className="mb-4 z-10 relative sm:block hidden w-[70%] mx-auto"
+          />
+
           <img
             src="/results__1.svg"
             alt="logo"
-            className="mb-4 z-10 relative"
+            className="mb-4 z-10 relative sm:hidden block"
           />
-          <img src="/results__2.svg" alt="logo" className="z-10 relative" />
+          <img src="/results__2.svg" alt="logo" className="z-10 relative block sm:hidden" />
         </div>
       </div>
 
