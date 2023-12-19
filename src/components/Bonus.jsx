@@ -30,7 +30,7 @@ let bonuses = [
 function Bonus() {
   return (
     <div className="flex flex-col items-center justify-center">
-      <h2 className="text-white text-[24px] md:text-[28px] lg:text-[42px] font-[700] font-helvetica">
+      <h2 className="text-white text-[24px] md:text-[30px] lg:text-[42px] font-[700] font-helvetica">
         Unlock Bonuses Worth{" "}
         <span
           className="font-epicene"
@@ -73,7 +73,8 @@ function Bonus() {
                 fontWeight: "700",
               }}
             >
-              ₹{i.price}
+              <span className="text-[24px]">₹</span>
+              {i.price}
             </p>
             <h2 className="text-[20px] font-hanson font-[700] text-white uppercase leading-none mt-[-px]">
               {i.desc}
@@ -94,7 +95,7 @@ function Bonus() {
       >
         <span className="w-[10px] h-[10px] rounded-full bg-[#fff] left-5 top-5 absolute"></span>
         <div className="flex flex-col items-center justify-center ">
-          <p className="text-[13px] font-helvetica">
+          <p className="text-[13px] lg:text-[32px] md:text-[24px] font-helvetica">
             Total Value of{" "}
             <span
               className="bold italic"
@@ -109,8 +110,8 @@ function Bonus() {
               Bonuses
             </span>
           </p>
-          <h1 className="text-[48px] font-[700] mt-2 font-hanson leading-none ">
-            ₹17,000
+          <h1 className="text-[48px] md:text-[62px] lg:text-[96px] font-[700] mt-2 font-hanson leading-none ">
+            <span className="text-[28px] lg:text-[48px]">₹</span>17,000
           </h1>
 
           <img src="/Line 1.svg" alt="logo" className="mx-auto mt-4" />
@@ -118,13 +119,13 @@ function Bonus() {
       </div>
 
       <div className="text-white mt-3 text-center">
-        <p className="text-[14px] font-[400] font-helvetica">
+        <p className="text-[14px] lg:text-[30px] md:text-[24px] font-[400] font-helvetica">
           Normal Workshop Ticket Price:
           <span className="custom-strike">₹2999</span>
         </p>
 
         <p
-          className="text-[16px] font-bold font-helvetica"
+          className="text-[16px] lg:text-[25px] md:text-[20px] font-bold font-helvetica"
           style={{
             background:
               "linear-gradient(276deg, #F90 16.68%, #F90 55.97%, #F00 149.3%)",
@@ -153,14 +154,16 @@ function Bonus() {
       <TimeRunning />
       <JoinNowCTA />
 
-      <div className="border border-dotted border-[#f90] text-[13px] px-2 py-2  rounded-[15px] my-8 font-helvetica">
-        <p className="text-center text-white">This Workshop Is</p>
-        <p className="text-center text-white">
+      <div className="border border-dotted border-[#f90] px-2 py-2  rounded-[15px] my-8 font-helvetica w-[95%] md:w-[50%] lg:w-[45%]">
+        <p className="text-center text-white  text-[13px] lg:text-[28px] md:text-[21px]">
+          This Workshop Is
+        </p>
+        <p className="text-center text-white text-[13px] lg:text-[28px] md:text-[21px]">
           {" "}
           A Complete Mentorship You Need To Understand
         </p>
         <p
-          className="text-center font-bold text-[16px]"
+          className="text-center font-bold text-[16px] lg:text-[28px] md:text-[21px]"
           style={{
             background:
               "linear-gradient(272deg, #F90 37.08%, #F90 37.09%, #F00 94.15%)",
