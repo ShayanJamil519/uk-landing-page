@@ -30,7 +30,7 @@ let bonuses = [
 function Bonus() {
   return (
     <div className="flex flex-col items-center justify-center">
-      <h2 className="text-white text-[24px] font-[700] font-helvetica">
+      <h2 className="text-white text-[24px] md:text-[28px] lg:text-[42px] font-[700] font-helvetica">
         Unlock Bonuses Worth{" "}
         <span
           className="font-epicene"
