@@ -4,7 +4,7 @@ function JoinNowCTA() {
   return (
     <div className="w-full">
       <div
-        className="mt-5 lg:mt-12 pt-3 pb-2 px-1 rounded-[13px]  text-white text-center font-helvetica w-[95%] md:w-[50%] lg:w-[48%] mx-auto
+        className="mt-5 lg:mt-12 pt-3 pb-2 px-1 rounded-[13px]  text-white text-center font-helvetica w-[95%] md:w-[50%] lg:w-[55%] mx-auto
 "
         style={{
           background:
