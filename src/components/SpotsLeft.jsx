@@ -15,11 +15,16 @@ const SpotsLeft = () => {
         className="absolute top-0 left-0 sm:hidden block"
       />
       {/* Top */}
-      <div className="relative z-50 px-4 lg:w-[50%] md:w-[65%] sm:w-[85%] mx-auto py-3 rounded-[40px] md:rounded-[80px] bg-[#fff] text-center font-bold">
+      <div
+        style={{
+          backdropFilter: " blur(3.40px)",
+        }}
+        className="relative z-50 px-4 lg:w-[50%] md:w-[65%] sm:w-[85%] mx-auto py-3 rounded-[40px] md:rounded-[80px] !bg-[#fff] text-center font-bold"
+      >
         <img
           src="/mic__large.svg"
           alt="logo"
-          className="absolute -top-10 -left-10 z-2 sm:block hidden lg:w-[230px] md:w-[180px] sm:w-[140px]"
+          className="absolute -top-10 -left-20 z-10 sm:block hidden lg:w-[230px] md:w-[180px] sm:w-[140px]"
         />
 
         <img
