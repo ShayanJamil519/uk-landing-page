@@ -46,10 +46,10 @@ function Bonus() {
         </span>
       </h2>
 
-      <div className="w-full">
+      <div className="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2">
         {bonuses.map((i, index) => (
           <div
-            className="flex items-center justify-center flex-col mx-8  text-center my-6 py-3 rounded-xl border-2 border-[#f90]"
+            className="col-span-1  mx-2  text-center my-6 py-3 rounded-xl border-2 border-[#f90]"
             style={{
               background: "url(/noisy-gradients.png) lightgray",
               backgroundPosition: "50%",
@@ -58,7 +58,7 @@ function Bonus() {
             }}
             key={i}
           >
-            <Image src={i.icon} width={100} height={100} alt="logo" />
+            <Image src={i.icon} width={100} height={100} alt="logo" className="mx-auto" />
             <p
               className="font-hanson"
               // className="text-[48px] font-hanson font-[700] text-[#f90] leading-none"
@@ -84,7 +84,7 @@ function Bonus() {
       </div>
 
       <div
-        className="text-white text-center py-10 px-4 w-[85%] rounded-[19px] my-8 relative"
+        className="text-white text-center py-10 px-4 w-[80%] mx-auto mt-5 sm:mt-10 rounded-[19px] my-8 relative"
         style={{
           background:
             "linear-gradient(139deg, rgba(6, 6, 6, 0.30) 5.43%, rgba(177, 174, 174, 0.15) 48.89%, rgba(217, 217, 217, 0.00) 94.14%)",
@@ -94,7 +94,7 @@ function Bonus() {
         }}
       >
         <span className="w-[10px] h-[10px] rounded-full bg-[#fff] left-5 top-5 absolute"></span>
-        <div className="flex flex-col items-center justify-center ">
+        <div className="flex flex-col items-center justify-center  ">
           <p className="text-[13px] lg:text-[32px] md:text-[24px] font-helvetica">
             Total Value of{" "}
             <span
