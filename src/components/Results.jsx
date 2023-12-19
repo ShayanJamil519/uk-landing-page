@@ -42,12 +42,24 @@ const Results = () => {
 
       <JoinNowCTA />
 
-      <div className="mt-8 w-[90%] sm:w-[50%] lg:w-[35%] mx-auto">
-        <h2 className="text-white font-bold text-[13px] lg:text-[32px] md:text-[24px]">
-          KNOW THE MAN BEHIND THE <span className="text-[#f90]">MAGIC</span>
+      <div className="mt-8 md:mt-12 w-[90%] sm:w-[70%] lg:w-[55%] mx-auto">
+        <h2 className="text-white font-bold text-[18px] lg:text-[28px] md:text-[24px] sm:text-[22px]">
+          KNOW THE MAN BEHIND THE{" "}
+          <span
+            className="font-bold "
+            style={{
+              background:
+                "linear-gradient(275deg, #F90 -18.67%, #F90 -1.55%, #F00 32.81%)",
+              backgroundClip: "text",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+            }}
+          >
+            MAGIC
+          </span>
         </h2>
         <div
-          className="rounded-2xl my-3 px-2 py-4"
+          className="rounded-2xl mt-5 px-2 py-4 md:pt-7"
           style={{
             borderRadius: "19px",
             background:
@@ -60,13 +72,17 @@ const Results = () => {
           }}
         >
           {/* c:\Users\RB Tech\Downloads\Rectangle 11.png */}
-          <div className="flex justify-center gap-8 md:gap-5 items-center ">
+          <div className="flex justify-center gap-2 sm:gap-5 md:gap-6 items-center ">
             <div className="">
-              <img src="/men.svg" alt="logo" />
+              <img
+                src="/men.svg"
+                alt="logo"
+                className="w-[120px] md:w-[160px]"
+              />
             </div>
-            <div className="flex w-1/2 flex-col">
+            <div className="flex  flex-col">
               <h2
-                className="text-[24px] md:text-[40px] lg:text-[64px]"
+                className="text-[27px] md:text-[40px] lg:text-[60px]"
                 style={{
                   background:
                     "linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%)",
@@ -80,7 +96,7 @@ const Results = () => {
               >
                 Sahil Kasana
               </h2>
-              <h4 className="text-left text-[14px] text-white">
+              <h4 className="text-left -mt-2 font-bold italic text-[14px] text-white">
                 The{" "}
                 <span
                   className=" font-epicene"
@@ -103,7 +119,7 @@ const Results = () => {
               </h4>
             </div>
           </div>
-          <h2 className="mt-7 mb-3 mx-7 text-center text-white font-helvetica">
+          <h2 className="mt-7 mb-3 mx-1 text-[15px] text-center text-white font-helvetica">
             Worked with over 300 clients and generated{" "}
             <span
               style={{
@@ -113,7 +129,7 @@ const Results = () => {
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
                 fontFamily: "Helvetica",
-                fontSize: "15px",
+
                 fontStyle: "italic",
                 fontWeight: "700",
                 lineHeight: "normal",
