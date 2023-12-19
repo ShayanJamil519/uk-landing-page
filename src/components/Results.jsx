@@ -31,15 +31,14 @@ const Results = () => {
         <img
           src="/results__layer.svg"
           alt="logo"
-          className="absolute left-0 top-[30%] sm:top-[20%] lg:top-[10%] z-2 lg:w-[15%]"
+          className="absolute left-0 top-[30%] sm:top-[20%] md:top-[15%] lg:top-[10%] z-2 md:w-[20%] lg:w-[15%]"
         />
 
         <div className="mx-auto">
-
-        <img
+          <img
             src="/results__1__large.svg"
             alt="logo"
-            className="mb-4 z-10 relative sm:block hidden w-[70%] mx-auto"
+            className="mb-4 z-10 relative sm:block hidden md:w-full lg:w-[75%] mx-auto"
           />
 
           <img
@@ -47,7 +46,11 @@ const Results = () => {
             alt="logo"
             className="mb-4 z-10 relative sm:hidden block"
           />
-          <img src="/results__2.svg" alt="logo" className="z-10 relative block sm:hidden" />
+          <img
+            src="/results__2.svg"
+            alt="logo"
+            className="z-10 mx-auto relative block md:hidden"
+          />
         </div>
       </div>
 

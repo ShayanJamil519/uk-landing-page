@@ -70,7 +70,7 @@ const FAQS = () => {
         .
       </p>
 
-      <div className="flex flex-col space-y-4 mt-5 w-full sm:w-[90%] md:w-[80%] lg:w-[70%] mx-auto items-center  ">
+      <div className="flex flex-col space-y-4 mt-5 w-full sm:w-[90%] md:w-[90%] lg:w-[80%] mx-auto items-center  ">
         {Questions.map((item, index) => (
           <div
             key={index}
@@ -84,11 +84,13 @@ const FAQS = () => {
             }}
           >
             <div
-              className={`rounded-[26px] pt-16 sm:pt-7 md:pt-16 pb-5  ${
-                item.isOpen ? "block bg-[#FFF] " : "hidden"
+              className={`rounded-[26px] pt-16 sm:pt-7 md:pt-16 lg:pt-16 pb-5  ${
+                item.isOpen ? "block bg-[#000] " : "hidden"
               }`}
             >
-              <p className="text-[#171717] text-[13px] md:text-[16px] px-5">{item.answer}</p>
+              <p className="text-[#fff] text-[13px] md:text-[16px] px-5">
+                {item.answer}
+              </p>
             </div>
             <div
               onClick={() => handleClick(index)}

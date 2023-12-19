@@ -1,4 +1,5 @@
 import Bonus from "@/components/Bonus";
+import CountDown from "@/components/CountDown";
 import FAQS from "@/components/FAQs";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
@@ -33,6 +34,7 @@ export default function Home() {
       <FAQS />
       <JoinNowCTA />
       <Footer />
+      <CountDown />
     </div>
   );
 }

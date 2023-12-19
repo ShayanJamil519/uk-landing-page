@@ -3,7 +3,7 @@ import React from "react";
 
 const Reserve1 = () => {
   return (
-    <div className="mt-5 px-6">
+    <div className="mt-5 px-3">
       <div
         style={{
           borderRadius: "3px",
@@ -30,9 +30,10 @@ const Reserve1 = () => {
             </p>
           </div>
           {/* Middle */}
-          <p className="text-[#FFF] text-[13px] lg:[24px] font-normal font-helvetica">
+          <p className="text-[#FFF] text-[13px] sm:text-[15px] font-normal font-helvetica">
             3 steps of professional profile{" "}
             <span
+              className="text-[13px] sm:text-[15px]"
               style={{
                 background:
                   "linear-gradient(276deg, #F90 16.68%, #F90 55.97%, #F00 149.3%)",
@@ -40,7 +41,6 @@ const Reserve1 = () => {
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
                 fontFamily: "Helvetica",
-                fontSize: "13px",
                 fontStyle: "normal",
                 fontWeight: 700,
                 lineHeight: "normal",
@@ -66,7 +66,7 @@ const Reserve1 = () => {
 
 const Reserve2 = () => {
   return (
-    <div className="mt-5 px-6">
+    <div className="mt-5 px-3">
       <div
         style={{
           borderRadius: "3px",
@@ -93,10 +93,10 @@ const Reserve2 = () => {
           </div>
 
           {/* Middle */}
-          <p className="text-[#FFF] text-[13px] lg:[24px]  font-normal  font-helvetica">
+          <p className="text-[#FFF] text-[13px] sm:text-[15px]  font-normal  font-helvetica">
             Secret sauce to create a high converting{" "}
             <span
-              className="text-[13px] lg:[24px] "
+              className="text-[13px] sm:text-[15px] "
               style={{
                 background:
                   "linear-gradient(276deg, #F90 9.2%, #F90 9.21%, #F00 119.3%)",
@@ -129,7 +129,7 @@ const Reserve2 = () => {
 
 const Reserve3 = () => {
   return (
-    <div className="mt-5 px-6">
+    <div className="mt-5 px-3">
       <div
         style={{
           borderRadius: "3px",
@@ -156,9 +156,10 @@ const Reserve3 = () => {
           </div>
 
           {/* Middle */}
-          <p className="text-[#FFF] text-[13px] lg:[24px]  font-normal  font-helvetica">
+          <p className="text-[#FFF] text-[13px] sm:text-[15px] font-normal  font-helvetica">
             Steps to build an{" "}
             <span
+              className="text-[13px] sm:text-[15px]"
               style={{
                 background:
                   "linear-gradient(276deg, #F90 9.2%, #F90 9.21%, #F00 119.3%)",
@@ -166,7 +167,7 @@ const Reserve3 = () => {
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
                 fontFamily: "Helvetica",
-                fontSize: "13px",
+
                 fontStyle: "normal",
                 fontWeight: 700,
                 lineHeight: "normal",
@@ -192,7 +193,7 @@ const Reserve3 = () => {
 
 const Reserve4 = () => {
   return (
-    <div className="mt-5 px-6">
+    <div className="mt-5 px-3">
       <div
         style={{
           borderRadius: "3px",
@@ -219,9 +220,10 @@ const Reserve4 = () => {
           </div>
 
           {/* Middle */}
-          <p className="text-[#FFF] text-[13px] lg:[24px] font-normal  font-helvetica">
+          <p className="text-[#FFF] text-[13px] sm:text-[15px] font-normal  font-helvetica">
             Perfect{" "}
             <span
+              className="text-[13px] sm:text-[15px]"
               style={{
                 background:
                   "linear-gradient(276deg, #F90 9.2%, #F90 9.21%, #F00 119.3%)",
@@ -229,7 +231,7 @@ const Reserve4 = () => {
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
                 fontFamily: "Helvetica",
-                fontSize: "13px",
+
                 fontStyle: "normal",
                 fontWeight: 700,
                 lineHeight: "normal",
@@ -256,7 +258,7 @@ const Reserve4 = () => {
 
 const Reserve5 = () => {
   return (
-    <div className="mt-5 px-6">
+    <div className="mt-5 px-3">
       <div
         style={{
           borderRadius: "3px",
@@ -283,8 +285,9 @@ const Reserve5 = () => {
           </div>
 
           {/* Middle */}
-          <p className="text-[#FFF] text-[13px] lg:[24px] font-normal font-helvetica">
+          <p className="text-[#FFF] text-[13px] sm:text-[15px] font-normal font-helvetica">
             <span
+              className="text-[13px] sm:text-[15px]"
               style={{
                 background:
                   "linear-gradient(271deg, #F90 50.75%, #F90 50.76%, #F00 103.35%)",
@@ -292,7 +295,7 @@ const Reserve5 = () => {
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
                 fontFamily: "Helvetica",
-                fontSize: "13px",
+
                 fontStyle: "normal",
                 fontWeight: 700,
                 lineHeight: "normal",
@@ -319,7 +322,7 @@ const Reserve5 = () => {
 
 const Reserve6 = () => {
   return (
-    <div className="mt-5 px-6">
+    <div className="mt-5 px-3">
       <div
         style={{
           borderRadius: "3px",
@@ -346,9 +349,10 @@ const Reserve6 = () => {
           </div>
 
           {/* Middle */}
-          <p className="text-[#FFF] text-[13px] lg:[24px] font-normal  font-helvetica">
+          <p className="text-[#FFF] text-[13px] sm:text-[15px] font-normal  font-helvetica">
             Secret payment processor that almost takes{" "}
             <span
+              className="text-[13px] sm:text-[15px]"
               style={{
                 background:
                   "linear-gradient(271deg, #F90 58.54%, #F90 74.58%, #F00 109.34%)",
@@ -356,7 +360,7 @@ const Reserve6 = () => {
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
                 fontFamily: "Helvetica",
-                fontSize: "13px",
+
                 fontStyle: "normal",
                 fontWeight: 700,
                 lineHeight: "normal",
@@ -382,7 +386,7 @@ const Reserve6 = () => {
 
 const Reserve7 = () => {
   return (
-    <div className="mt-5 px-6">
+    <div className="mt-5 px-3">
       <div
         style={{
           borderRadius: "3px",
@@ -409,9 +413,10 @@ const Reserve7 = () => {
           </div>
 
           {/* Middle */}
-          <p className="text-[#FFF] text-[13px] lg:[24px] font-normal  font-helvetica">
+          <p className="text-[#FFF] text-[13px] sm:text-[15px] font-normal  font-helvetica">
             Simplest way to send{" "}
             <span
+              className="text-[13px] sm:text-[15px]"
               style={{
                 background:
                   "linear-gradient(269deg, #F90 9.2%, #F90 9.21%, #F00 119.3%)",
@@ -419,7 +424,7 @@ const Reserve7 = () => {
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
                 fontFamily: "Helvetica",
-                fontSize: "13px",
+
                 fontStyle: "normal",
                 fontWeight: 700,
                 lineHeight: "normal",
@@ -445,7 +450,7 @@ const Reserve7 = () => {
 
 const Reserve8 = () => {
   return (
-    <div className="mt-5 px-6">
+    <div className="mt-5 px-3">
       <div
         style={{
           borderRadius: "3px",
@@ -472,8 +477,9 @@ const Reserve8 = () => {
           </div>
 
           {/* Middle */}
-          <p className="text-[#FFF] text-[13px] lg:[24px] font-normal font-helvetica w-full items-center justify-center flex">
+          <p className="text-[#FFF] text-[13px] sm:text-[15px] font-normal font-helvetica w-full items-center justify-center flex">
             <span
+              className="text-[13px] sm:text-[15px]"
               style={{
                 background:
                   "linear-gradient(276deg, #F90 9.2%, #F90 9.21%, #F00 119.3%)",
@@ -481,7 +487,7 @@ const Reserve8 = () => {
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
                 fontFamily: "Helvetica",
-                fontSize: "13px",
+
                 fontStyle: "normal",
                 fontWeight: 700,
                 lineHeight: "normal",
@@ -521,7 +527,7 @@ const Reserve = () => {
       {/* Cards */}
       {/* Single Card */}
       {/* Cards Container */}
-      <div className="flex flex-wrap md:mx-[50px] lg:mx-[150px] justify-center">
+      <div className="flex flex-wrap  md:w-[95%] mx-auto justify-center">
         <div className="p-2 w-full md:w-1/2">
           <Reserve1 />
         </div>
@@ -531,7 +537,7 @@ const Reserve = () => {
         {/* Repeat for other Reserve components */}
       </div>
 
-      <div className="flex flex-wrap md:mx-[50px] lg:mx-[150px] justify-center">
+      <div className="flex flex-wrap  md:w-[95%] mx-auto justify-center">
         <div className="p-2 w-full md:w-1/2">
           <Reserve3 />
         </div>
@@ -541,7 +547,7 @@ const Reserve = () => {
         {/* Repeat for other Reserve components */}
       </div>
 
-      <div className="flex flex-wrap md:mx-[50px] lg:mx-[150px] justify-center">
+      <div className="flex flex-wrap  md:w-[95%] mx-auto justify-center">
         <div className="p-2 w-full md:w-1/2">
           <Reserve5 />
         </div>
@@ -551,7 +557,7 @@ const Reserve = () => {
         {/* Repeat for other Reserve components */}
       </div>
 
-      <div className="flex flex-wrap md:mx-[50px] lg:mx-[150px] justify-center">
+      <div className="flex flex-wrap  md:w-[95%] mx-auto justify-center">
         <div className="p-2 w-full md:w-1/2">
           <Reserve7 />
         </div>
