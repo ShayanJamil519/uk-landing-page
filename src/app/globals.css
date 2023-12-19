@@ -7,3 +7,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+@media only screen and (max-width: 400px) {
+  .join_now_responsiveness {
+    width: 90%;
+  }
+}
