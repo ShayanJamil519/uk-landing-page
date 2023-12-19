@@ -26,7 +26,7 @@ const Results = () => {
           background:
             "linear-gradient(180deg, rgba(17, 17, 17, 0.29) 14.06%, rgba(252, 60, 0, 0.29) 48.44%, rgba(11, 11, 11, 0.29) 88.54%)",
         }}
-        className="mt-7 relative"
+        className="mt-7 relative flex justify-center items-center md:h-screen"
       >
         <img
           src="/results__layer.svg"
@@ -34,8 +34,14 @@ const Results = () => {
           className="absolute left-0 top-[30%] z-2"
         />
 
-        <img src="/results__1.svg" alt="logo" className="mb-4 z-10 relative" />
-        <img src="/results__2.svg" alt="logo" className="z-10 relative" />
+        <div className="mx-auto">
+          <img
+            src="/results__1.svg"
+            alt="logo"
+            className="mb-4 z-10 relative"
+          />
+          <img src="/results__2.svg" alt="logo" className="z-10 relative" />
+        </div>
       </div>
 
       <TimeRunning />
