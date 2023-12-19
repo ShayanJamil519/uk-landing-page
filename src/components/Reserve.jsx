@@ -30,7 +30,7 @@ const Reserve1 = () => {
             </p>
           </div>
           {/* Middle */}
-          <p className="text-[#FFF] text-[13px] font-normal font-helvetica">
+          <p className="text-[#FFF] text-[13px] lg:[24px] font-normal font-helvetica">
             3 steps of professional profile{" "}
             <span
               style={{
@@ -52,7 +52,12 @@ const Reserve1 = () => {
         </div>
         {/* Right */}
         <div>
-          <Image src="/Reserve/reserve1.png" alt="logo" width={40} height={40} />
+          <Image
+            src="/Reserve/reserve1.png"
+            alt="logo"
+            width={40}
+            height={40}
+          />
         </div>
       </div>
     </div>
@@ -88,9 +93,10 @@ const Reserve2 = () => {
           </div>
 
           {/* Middle */}
-          <p className="text-[#FFF] text-[13px] font-normal  font-helvetica">
+          <p className="text-[#FFF] text-[13px] lg:[24px]  font-normal  font-helvetica">
             Secret sauce to create a high converting{" "}
             <span
+              className="text-[13px] lg:[24px] "
               style={{
                 background:
                   "linear-gradient(276deg, #F90 9.2%, #F90 9.21%, #F00 119.3%)",
@@ -98,7 +104,6 @@ const Reserve2 = () => {
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
                 fontFamily: "Helvetica",
-                fontSize: "13px",
                 fontStyle: "normal",
                 fontWeight: 700,
                 lineHeight: "normal",
@@ -110,7 +115,12 @@ const Reserve2 = () => {
         </div>
         {/* Right */}
         <div className="">
-          <Image src="/Reserve/reserve2.png" alt="logo" width={40} height={40} />
+          <Image
+            src="/Reserve/reserve2.png"
+            alt="logo"
+            width={40}
+            height={40}
+          />
         </div>
       </div>
     </div>
@@ -146,12 +156,12 @@ const Reserve3 = () => {
           </div>
 
           {/* Middle */}
-          <p className="text-[#FFF] text-[13px] font-normal  font-helvetica">
-            Steps to build an {" "}
+          <p className="text-[#FFF] text-[13px] lg:[24px]  font-normal  font-helvetica">
+            Steps to build an{" "}
             <span
               style={{
                 background:
-                "linear-gradient(276deg, #F90 9.2%, #F90 9.21%, #F00 119.3%)",
+                  "linear-gradient(276deg, #F90 9.2%, #F90 9.21%, #F00 119.3%)",
                 backgroundClip: "text",
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
@@ -168,7 +178,12 @@ const Reserve3 = () => {
         </div>
         {/* Right */}
         <div className="">
-          <Image src="/Reserve/reserve3.png" alt="logo" width={50} height={50} />
+          <Image
+            src="/Reserve/reserve3.png"
+            alt="logo"
+            width={50}
+            height={50}
+          />
         </div>
       </div>
     </div>
@@ -204,8 +219,8 @@ const Reserve4 = () => {
           </div>
 
           {/* Middle */}
-          <p className="text-[#FFF] text-[13px] font-normal  font-helvetica">
-            Perfect {" "}
+          <p className="text-[#FFF] text-[13px] lg:[24px] font-normal  font-helvetica">
+            Perfect{" "}
             <span
               style={{
                 background:
@@ -220,14 +235,19 @@ const Reserve4 = () => {
                 lineHeight: "normal",
               }}
             >
-              steps {" "}
+              steps{" "}
             </span>
             to book calls with prospects
           </p>
         </div>
         {/* Right */}
         <div className="">
-          <Image src="/Reserve/reserve4.png" alt="logo" width={50} height={50} />
+          <Image
+            src="/Reserve/reserve4.png"
+            alt="logo"
+            width={50}
+            height={50}
+          />
         </div>
       </div>
     </div>
@@ -263,7 +283,7 @@ const Reserve5 = () => {
           </div>
 
           {/* Middle */}
-          <p className="text-[#FFF] text-[13px] font-normal font-helvetica">
+          <p className="text-[#FFF] text-[13px] lg:[24px] font-normal font-helvetica">
             <span
               style={{
                 background:
@@ -278,14 +298,19 @@ const Reserve5 = () => {
                 lineHeight: "normal",
               }}
             >
-              Unrevealed outreach {" "}
+              Unrevealed outreach{" "}
             </span>
             that big agencies don’t want you to know
           </p>
         </div>
         {/* Right */}
         <div className="">
-          <Image src="/Reserve/reserve5.png" alt="logo" width={50} height={50} />
+          <Image
+            src="/Reserve/reserve5.png"
+            alt="logo"
+            width={50}
+            height={50}
+          />
         </div>
       </div>
     </div>
@@ -321,12 +346,12 @@ const Reserve6 = () => {
           </div>
 
           {/* Middle */}
-          <p className="text-[#FFF] text-[13px] font-normal  font-helvetica">
-            Secret payment processor that almost takes {" "}
+          <p className="text-[#FFF] text-[13px] lg:[24px] font-normal  font-helvetica">
+            Secret payment processor that almost takes{" "}
             <span
               style={{
                 background:
-                "linear-gradient(271deg, #F90 58.54%, #F90 74.58%, #F00 109.34%)",
+                  "linear-gradient(271deg, #F90 58.54%, #F90 74.58%, #F00 109.34%)",
                 backgroundClip: "text",
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
@@ -343,7 +368,12 @@ const Reserve6 = () => {
         </div>
         {/* Right */}
         <div className="">
-          <Image src="/Reserve/reserve6.png" alt="logo" width={50} height={50} />
+          <Image
+            src="/Reserve/reserve6.png"
+            alt="logo"
+            width={50}
+            height={50}
+          />
         </div>
       </div>
     </div>
@@ -379,8 +409,8 @@ const Reserve7 = () => {
           </div>
 
           {/* Middle */}
-          <p className="text-[#FFF] text-[13px] font-normal  font-helvetica">
-            Simplest way to send {" "}
+          <p className="text-[#FFF] text-[13px] lg:[24px] font-normal  font-helvetica">
+            Simplest way to send{" "}
             <span
               style={{
                 background:
@@ -401,7 +431,12 @@ const Reserve7 = () => {
         </div>
         {/* Right */}
         <div className="">
-          <Image src="/Reserve/reserve7.png" alt="logo" width={50} height={50} />
+          <Image
+            src="/Reserve/reserve7.png"
+            alt="logo"
+            width={50}
+            height={50}
+          />
         </div>
       </div>
     </div>
@@ -437,7 +472,7 @@ const Reserve8 = () => {
           </div>
 
           {/* Middle */}
-          <p className="text-[#FFF] text-[13px] font-normal font-helvetica w-full items-center justify-center flex">
+          <p className="text-[#FFF] text-[13px] lg:[24px] font-normal font-helvetica w-full items-center justify-center flex">
             <span
               style={{
                 background:
@@ -458,7 +493,12 @@ const Reserve8 = () => {
         </div>
         {/* Right */}
         <div className="">
-          <Image src="/Reserve/reserve8.png" alt="logo" width={50} height={50} />
+          <Image
+            src="/Reserve/reserve8.png"
+            alt="logo"
+            width={50}
+            height={50}
+          />
         </div>
       </div>
     </div>
@@ -470,7 +510,7 @@ const Reserve = () => {
     <div>
       {/* Heading */}
       <div className="mt-7 mb-2">
-        <h2 className="text-[#EFEFEF] text-[20px] font-bold  px-10 text-center font-helvetica">
+        <h2 className="text-[#EFEFEF] text-[20px] md:text-[24px] lg:text-[32px] font-bold  px-10 text-center font-helvetica">
           {` HERE'S WHAT YOU'RE GOING TO`}
           <span className="text-[#FF4D00] italic font-helveticatext-[20px] font-bold mx-2">
             LEARN
@@ -480,15 +520,55 @@ const Reserve = () => {
 
       {/* Cards */}
       {/* Single Card */}
+      {/* Cards Container */}
+      <div className="flex flex-wrap md:mx-[50px] lg:mx-[150px] justify-center">
+        <div className="p-2 w-full md:w-1/2">
+          <Reserve1 />
+        </div>
+        <div className="p-2 w-full md:w-1/2">
+          <Reserve2 />
+        </div>
+        {/* Repeat for other Reserve components */}
+      </div>
 
-      <Reserve1 />
+      <div className="flex flex-wrap md:mx-[50px] lg:mx-[150px] justify-center">
+        <div className="p-2 w-full md:w-1/2">
+          <Reserve3 />
+        </div>
+        <div className="p-2 w-full md:w-1/2">
+          <Reserve4 />
+        </div>
+        {/* Repeat for other Reserve components */}
+      </div>
+
+      <div className="flex flex-wrap md:mx-[50px] lg:mx-[150px] justify-center">
+        <div className="p-2 w-full md:w-1/2">
+          <Reserve5 />
+        </div>
+        <div className="p-2 w-full md:w-1/2">
+          <Reserve6 />
+        </div>
+        {/* Repeat for other Reserve components */}
+      </div>
+
+      <div className="flex flex-wrap md:mx-[50px] lg:mx-[150px] justify-center">
+        <div className="p-2 w-full md:w-1/2">
+          <Reserve7 />
+        </div>
+        <div className="p-2 w-full md:w-1/2">
+          <Reserve8 />
+        </div>
+        {/* Repeat for other Reserve components */}
+      </div>
+
+      {/* <Reserve1 />
       <Reserve2 />
       <Reserve3 />
       <Reserve4 />
       <Reserve5 />
       <Reserve6 />
       <Reserve7 />
-      <Reserve8 />
+      <Reserve8 /> */}
     </div>
   );
 };

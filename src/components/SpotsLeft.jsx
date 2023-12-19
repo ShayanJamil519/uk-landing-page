@@ -204,12 +204,12 @@ const SpotsLeft = () => {
       {/* Bottom */}
       {/* Top */}
       <div
-        className=" px-4 py-3 rounded-[15px] text-center w-[95%]  mx-auto"
+        className=" px-4 py-3 rounded-[15px] text-center w-[95%] md:w-[50%]  mx-auto"
         style={{
           border: "0.5px dashed #FF7A00",
         }}
       >
-        <h1 className="text-[16px] -mb-[1px] text-[#fff] font-normal">
+        <h1 className="text-[16px] md:text-[24px] lg:text-[32px] -mb-[1px] text-[#fff] font-normal">
           Your competitors will hate you for attending{" "}
         </h1>
         <h1
@@ -220,7 +220,7 @@ const SpotsLeft = () => {
             WebkitBackgroundClip: "text",
             WebkitTextFillColor: "transparent",
           }}
-          className="text-[16px] font-normal"
+          className="text-[16px] md:text-[24px] lg:text-[32px] font-normal"
         >
           “The One Person Agency Workshop”
         </h1>

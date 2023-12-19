@@ -42,21 +42,17 @@ const Results = () => {
 
       <JoinNowCTA />
 
-      <div className="mx-4 mt-8">
-        <h2 className="text-white font-bold text-[18px]">
+      <div className="mt-8 w-[90%] sm:w-[50%] lg:w-[35%] mx-auto">
+        <h2 className="text-white font-bold text-[13px] lg:text-[32px] md:text-[24px]">
           KNOW THE MAN BEHIND THE <span className="text-[#f90]">MAGIC</span>
         </h2>
         <div
           className="rounded-2xl my-3 px-2 py-4"
           style={{
-            // background:
-            //   "linear-gradient(132deg, #FFF 1.42%, #CDCDCD 1.43%, #515151 49.94%, #000 101.59%)",
             borderRadius: "19px",
-            // opacity: "0.2",
             background:
               "linear-gradient(132deg, #FFF 1.42%, #CDCDCD 1.43%, #515151 49.94%, #000 101.59%)",
             boxShadow: "hsl(11deg 100% 44.08%) 2px 2px 11px 2px",
-
             background: "url(/behind-man.png)",
             backgroundPosition: "50%",
             backgroundSize: "cover",
@@ -64,19 +60,19 @@ const Results = () => {
           }}
         >
           {/* c:\Users\RB Tech\Downloads\Rectangle 11.png */}
-          <div className="flex justify-between items-center">
-            <div className="w-[45%]">
+          <div className="flex justify-center gap-8 md:gap-5 items-center ">
+            <div className="">
               <img src="/men.svg" alt="logo" />
             </div>
             <div className="flex w-1/2 flex-col">
               <h2
+                className="text-[24px] md:text-[40px] lg:text-[64px]"
                 style={{
                   background:
                     "linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%)",
                   WebkitBackgroundClip: "text",
                   WebkitTextFillColor: "transparent",
                   // fontFamily: "Test Epicene Text",
-                  fontSize: "26px",
                   fontWeight: "400",
                   // lineHeight: "normal",
                   textAlign: "justify",
