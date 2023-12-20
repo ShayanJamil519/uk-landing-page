@@ -1,25 +1,36 @@
 "use client";
+import { useEffect } from "react";
 import { useTimer } from "react-timer-hook";
 
 const OfferCountdown = () => {
-  const sixHoursFromNow = new Date();
-  sixHoursFromNow.setHours(sixHoursFromNow.getHours() + 6);
+  const storedExpiryTimestamp = localStorage.getItem("expiryTimestamp");
+  const initialExpiryTimestamp = storedExpiryTimestamp
+  ? new Date(storedExpiryTimestamp)
+  : new Date(Date.now() + 6 * 60 * 60 * 1000);
 
   const {
     totalSeconds,
     seconds,
     minutes,
     hours,
-    days,
-    isRunning,
-    start,
-    pause,
-    resume,
-    restart,
   } = useTimer({
-    expiryTimestamp: sixHoursFromNow,
+    expiryTimestamp: initialExpiryTimestamp,
     onExpire: () => console.warn("onExpire called"),
   });
+
+  // Update local storage when the timer expires
+  useEffect(() => {
+    if (totalSeconds === 0) {
+      localStorage.removeItem("expiryTimestamp");
+    }
+  }, [totalSeconds]);
+
+  // Save the expiry timestamp to local storage when the component mounts
+  useEffect(() => {
+    if (initialExpiryTimestamp) {
+      localStorage.setItem("expiryTimestamp", initialExpiryTimestamp.toISOString());
+    }
+  }, []);
 
   return (
     <div className="px-3 md:px-24 py-4 md:py-6 mt-6 gap-3 flex flex-row justify-between items-center" style={{background: "linear-gradient(89deg, rgba(255, 0, 31, 0.85) -4.53%, #FF5C00 99.62%)"}}>
