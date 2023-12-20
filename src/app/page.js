@@ -1,5 +1,4 @@
 import Bonus from "@/components/Bonus";
-import CountDown from "@/components/CountDown";
 import FAQS from "@/components/FAQs";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
@@ -13,7 +12,7 @@ import SpotsLeft from "@/components/SpotsLeft";
 
 export default function Home() {
   return (
-    <div className="bg-[#000] py-10 relative">
+    <div className="bg-[#000] py-10 pb-0 relative">
       <img
         src="/layer__1.svg"
         alt="logo"
@@ -35,7 +34,6 @@ export default function Home() {
       <FAQS />
       <JoinNowCTA />
       <Footer />
-      <CountDown />
       <OfferCountdown />
     </div>
   );
