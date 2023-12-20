@@ -6,6 +6,7 @@ import Hero from "@/components/Hero";
 import JoinNow from "@/components/JoinNow";
 import JoinNowCTA from "@/components/JoinNowCTA";
 import JoinWorkshop from "@/components/JoinWorkshop";
+import OfferCountdown from "@/components/OfferCountdown";
 import Reserve from "@/components/Reserve";
 import Results from "@/components/Results";
 import SpotsLeft from "@/components/SpotsLeft";
@@ -35,6 +36,7 @@ export default function Home() {
       <JoinNowCTA />
       <Footer />
       <CountDown />
+      <OfferCountdown />
     </div>
   );
 }
