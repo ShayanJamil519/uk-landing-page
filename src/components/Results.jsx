@@ -26,7 +26,7 @@ const Results = () => {
           background:
             "linear-gradient(180deg, rgba(17, 17, 17, 0.29) 14.06%, rgba(252, 60, 0, 0.29) 48.44%, rgba(11, 11, 11, 0.29) 88.54%)",
         }}
-        className="mt-7 relative flex justify-center items-center md:h-screen"
+        className="mt-7 relative flex justify-center items-center "
       >
         <img
           src="/results__layer.svg"
@@ -38,18 +38,18 @@ const Results = () => {
           <img
             src="/results__1__large.svg"
             alt="logo"
-            className="mb-4 z-10 relative sm:block hidden md:w-full lg:w-[75%] mx-auto"
+            className="mb-4 z-10 relative md:block hidden md:w-[70%] lg:w-[75%] mx-auto"
           />
 
           <img
             src="/results__1.svg"
             alt="logo"
-            className="mb-4 z-10 relative sm:hidden block"
+            className="mb-4 z-10 relative md:hidden block"
           />
           <img
             src="/results__2.svg"
             alt="logo"
-            className="z-10 mx-auto relative block md:hidden"
+            className="z-10 mx-auto relative block lg:hidden"
           />
         </div>
       </div>

@@ -30,7 +30,7 @@ let bonuses = [
 function Bonus() {
   return (
     <div className="flex flex-col items-center justify-center">
-      <h2 className="text-white text-[24px] md:text-[30px] lg:text-[42px] font-[700] font-helvetica">
+      <h2 className="text-white text-center text-[24px] md:text-[30px] lg:text-[42px] font-[700] font-helvetica">
         Unlock Bonuses Worth{" "}
         <span
           className="font-epicene"
@@ -46,7 +46,7 @@ function Bonus() {
         </span>
       </h2>
 
-      <div className="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2">
+      <div className="w-[88%] md:w-[60%]  sm:w-[70%] mx-auto grid grid-cols-1 lg:grid-cols-2">
         {bonuses.map((i, index) => (
           <div
             className="col-span-1  mx-2  text-center my-6 py-3 rounded-xl border-2 border-[#f90]"
@@ -58,7 +58,13 @@ function Bonus() {
             }}
             key={i}
           >
-            <Image src={i.icon} width={100} height={100} alt="logo" className="mx-auto" />
+            <Image
+              src={i.icon}
+              width={100}
+              height={100}
+              alt="logo"
+              className="mx-auto"
+            />
             <p
               className="font-hanson"
               // className="text-[48px] font-hanson font-[700] text-[#f90] leading-none"
