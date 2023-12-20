@@ -1,11 +1,17 @@
 "use client";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useTimer } from "react-timer-hook";
 
 const OfferCountdown = () => {
-  const storedExpiryTimestamp = localStorage.getItem("expiryTimestamp");
-  const initialExpiryTimestamp = storedExpiryTimestamp
-    ? new Date(storedExpiryTimestamp)
+  const [getLocalStorageItem, setGetLocalStorageItem] = useState(null);
+
+  useEffect(() => {
+    const storedExpiryTimestamp = localStorage.getItem("expiryTimestamp");
+    setGetLocalStorageItem(storedExpiryTimestamp);
+  }, []);
+
+  const initialExpiryTimestamp = getLocalStorageItem
+    ? new Date(getLocalStorageItem)
     : new Date(Date.now() + 6 * 60 * 60 * 1000);
 
   const { totalSeconds, seconds, minutes, hours } = useTimer({
